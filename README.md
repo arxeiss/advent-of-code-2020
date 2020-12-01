@@ -1,1 +1,18 @@
-# advent-of-code-2020
+# Advent Of Code 2020 in Go
+
+New project, new language, new Advent of Code in Go! For year 2019 in Elixir see https://github.com/arxeiss/advent-of-code-2019.
+The original tasks for all days and previous years see https://adventofcode.com/
+
+See each day for more information. I copied the instructions there as well.
+
+## How to run
+
+1. Install Go: https://golang.org/doc/install
+1. Clone this repo
+1. Run:
+  1. With makefile: `make run` and program will ask you which puzzle to run
+  1. Run all tests with `make tests`
+  1. Run program with specified day and puzzle part: `go run . [day] [part]`
+
+## Days
+- [Day 1: Report Repair](/day1)
