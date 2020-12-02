@@ -16,3 +16,4 @@ See each day for more information. I copied the instructions there as well.
 
 ## Days
 - [Day 1: Report Repair](/day1)
+- [Day 2: Password Philosophy](/day2)
