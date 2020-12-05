@@ -15,7 +15,9 @@ See each day for more information. I copied the instructions there as well.
     - Run program with specified day and puzzle part: `go run . [day] [part]`
 
 ## Days
+
 - [Day 1: Report Repair](/day1)
 - [Day 2: Password Philosophy](/day2)
 - [Day 3: Toboggan Trajectory](/day3)
 - [Day 4: Passport Processing](/day4)
+- [Day 5: Binary Boarding](/day5)
