@@ -21,7 +21,6 @@ hcl:#cfa07d eyr:2025 pid:166559648
 iyr:2011 ecl:brn hgt:59in`
 
 func TestPart1(t *testing.T) {
-	t.Skip()
 	result, err := day4.Part1(testInput)
 	t.Log("result=", result, "error:", err)
 	if err != nil {
@@ -33,7 +32,6 @@ func TestPart1(t *testing.T) {
 }
 
 func TestPart2_AllInvalid(t *testing.T) {
-	t.Skip()
 	result, err := day4.Part2(`eyr:1972 cid:100
 hcl:#18171d ecl:amb hgt:170 pid:186cm iyr:2018 byr:1926
 
