@@ -22,3 +22,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 4: Passport Processing](/day4)
 - [Day 5: Binary Boarding](/day5)
 - [Day 6: Custom Customs](/day6)
+- [Day 7: Handy Haversacks](/day7)
