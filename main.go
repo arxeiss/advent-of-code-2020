@@ -12,6 +12,7 @@ import (
 	"github.com/arxeiss/advent-of-code-2020/day5"
 	"github.com/arxeiss/advent-of-code-2020/day6"
 	"github.com/arxeiss/advent-of-code-2020/day7"
+	"github.com/arxeiss/advent-of-code-2020/day8"
 )
 
 func main() {
@@ -27,7 +28,7 @@ func main() {
 			os.Exit(1)
 		}
 	} else {
-		fmt.Print("Enter which Day to run (1-7): ")
+		fmt.Print("Enter which Day to run (1-8): ")
 		_, err = fmt.Scanf("%d", &day)
 		if err != nil {
 			fmt.Printf("Cannot scan number, %v\n", err)
@@ -70,6 +71,8 @@ func main() {
 		err = day6.Day6(part)
 	case 7:
 		err = day7.Day7(part)
+	case 8:
+		err = day8.Day8(part)
 	default:
 		err = fmt.Errorf("There is no such a day %d", day)
 	}
