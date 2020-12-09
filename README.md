@@ -24,3 +24,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 6: Custom Customs](/day6)
 - [Day 7: Handy Haversacks](/day7)
 - [Day 8: Handheld Halting](/day8)
+- [Day 9: Encoding Error](/day9)
