@@ -39,7 +39,6 @@ func TestPart1(t *testing.T) {
 }
 
 func TestPart2(t *testing.T) {
-	t.Skip()
 	result, err := day9.Part2(testInput, 5)
 	t.Log("result=", result, "error:", err)
 	if err != nil {

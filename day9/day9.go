@@ -40,7 +40,7 @@ func Part1(input string, preamble int) (result int, err error) {
 	return result, err
 }
 
-func Part2(input string, preamble int) (_ int, err error) {
+func Part2(input string, preamble int) (result int, err error) {
 	_, err = parseInput(input)
 	if err != nil {
 		return 0, err
@@ -51,9 +51,9 @@ func Part2(input string, preamble int) (_ int, err error) {
 		return 0, err
 	}
 	sumToSearch := firstXMASViolation(xmasData, preamble)
-	startIndex, endIndex := findInvalidSet(xmasData, sumToSearch)
+	result = findInvalidSet(xmasData, sumToSearch)
 
-	return xmasData[startIndex] + xmasData[endIndex], err
+	return result, err
 }
 
 func parseInput(input string) (xmasData []int, err error) {
@@ -98,13 +98,21 @@ func containsSum(xmasData []int, searchSum int) bool {
 	return false
 }
 
-func findInvalidSet(xmasData []int, sumToSearch int) (startIndex, endIndex int) {
+func findInvalidSet(xmasData []int, sumToSearch int) (result int) {
 	for i := 0; i < len(xmasData); i++ {
 		sum := xmasData[i]
+		min, max := sum, sum
+
 		for j := i + 1; j < len(xmasData); j++ {
+			if xmasData[j] < min {
+				min = xmasData[j]
+			}
+			if xmasData[j] > max {
+				max = xmasData[j]
+			}
 			sum += xmasData[j]
 			if sum == sumToSearch {
-				return i, j
+				return min + max
 			}
 			if sum > sumToSearch {
 				break
@@ -112,5 +120,5 @@ func findInvalidSet(xmasData []int, sumToSearch int) (startIndex, endIndex int) 
 		}
 	}
 
-	return 0, 0
+	return 0
 }
