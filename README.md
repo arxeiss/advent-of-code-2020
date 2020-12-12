@@ -25,3 +25,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 7: Handy Haversacks](/day7)
 - [Day 8: Handheld Halting](/day8)
 - [Day 9: Encoding Error](/day9)
+- [Day 10: Adapter Array](/day10)
