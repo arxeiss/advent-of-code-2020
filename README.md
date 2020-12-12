@@ -27,3 +27,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 9: Encoding Error](/day9)
 - [Day 10: Adapter Array](/day10)
 - [Day 11: Seating System](/day11)
+- [Day 12: Rain Risk](/day12)
