@@ -58,7 +58,7 @@ The earliest bus you could take is bus ID `59`. It doesn't depart until timestam
 
 ## --- Part 2 ---
 
-> :information_source: NOTE: :information_source: I was solving part 2 with brute-force approach, but it would require more than 5 hours to solve. Then I found how it should be solved with math. The solution needed is well explained in [this video](https://www.youtube.com/watch?v=zIFehsBHB8o) and more info in the code
+> :information_source: NOTE: :information_source: I was solving part 2 with brute-force approach, but it would require more than 5 hours to solve. Then I found how it should be solved with math. The solution needed is well explained in [this video](https://www.youtube.com/watch?v=zIFehsBHB8o) and more info in the code.
 
 The shuttle company is running a contest: one gold coin for anyone that can find the earliest timestamp such that the first bus ID departs at that time and each subsequent listed bus ID departs at that subsequent minute. (The first line in your input is no longer relevant.)
 
