@@ -29,3 +29,5 @@ See each day for more information. I copied the instructions there as well.
 - [Day 11: Seating System](/day11)
 - [Day 12: Rain Risk](/day12)
 - [Day 13: Shuttle Search](/day13)
+- [Day 14: Docking Data](/day14)
+- [Day 15: Rambunctious Recitation](/day15)
