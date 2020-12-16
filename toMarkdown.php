@@ -14,10 +14,12 @@ ob_start();
 $header = $finder->query(".//h2", $desc->item(0));
 $headerText = strip_tags($dom->saveHtml($header->item(0)));
 preg_match('/Day ([0-9]+)/i', $headerText, $matches);
+$currentDay = $matches[1];
+$desc->item(0)->removeChild($header->item(0));
 
 echo "# {$headerText}\n\n";
 echo "See [How to run](https://github.com/arxeiss/advent-of-code-2020/#how-to-run) chapter to run this puzzle\n\n";
-echo "> :warning: **SPOILER ALERT** :warning: - The code contains solution for the whole task. Try first to solve it **yourself**. :link: https://adventofcode.com/2020/day/{$matches[1]}\n\n";
+echo "> :warning: **SPOILER ALERT** :warning: - The code contains solution for the whole task. Try first to solve it **yourself**. :link: https://adventofcode.com/2020/day/{$currentDay}\n\n";
 
 echo "## --- Part 1 ---\n\n";
 
@@ -33,7 +35,10 @@ $content = preg_replace('/<\/?em[^>]*>/i', '**', $content);
 $content = preg_replace('/<li[^>]*>(.*?)(<\/li>|\n)\s*/i', "- $1\n", $content);
 $content = preg_replace('/<\/(p|ul)>\s*/i', "\n\n", $content);
 $content = preg_replace('/<h2[^>]*>(.*?)<\/h2>\s*/i', "## $1\n\n", $content);
-$content = preg_replace('/[\n]{3,}/', "\n\n", strip_tags($content));
+$content = str_replace("--- Part Two ---", "--- Part 2 ---", $content);
 
-echo "{$content}\n";
-file_put_contents("task.md", ob_get_clean());
+$content = preg_replace('/\n{3,}/', "\n\n", strip_tags($content."\n"));
+echo trim($content);
+echo "\n";
+
+file_put_contents("day{$currentDay}/README.md", ob_get_clean());
