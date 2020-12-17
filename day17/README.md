@@ -15,7 +15,9 @@ The experimental energy source is based on cutting-edge technology: a set of Con
 <details>
 <summary>Spoiler & help why the samples below does not work for you if you try to do it by hand</summary>
 
-I was trying to do first step by hand, by I was off just after first cube. The below explanation is from [Reddit](https://www.reddit.com/r/adventofcode/comments/ker0wi/2020_day_17_part_1_sample_input_wrong/):
+---
+
+I was trying to do it at the first by hand, but my result was off just after first cube. The below explanation is from [Reddit](https://www.reddit.com/r/adventofcode/comments/ker0wi/2020_day_17_part_1_sample_input_wrong/):
 
 **[7lazy7](https://www.reddit.com/user/7lazy7/) wrote:**
 
@@ -32,11 +34,12 @@ For z = -1 after first cycle
 
 So it is the same as the example, just that the `.`'s are not present
 
----
-
 **[qqqqqx](https://www.reddit.com/user/qqqqqx/) wrote:**
 
 This confused me too, I was expecting dots on all sides for some reason and I thought my grid was off by one vertically. But since it's an infinite grid in every direction the extras don't actually matter and I guess they were omitted in the example.
+
+---
+
 </details>
 
 The pocket dimension contains an infinite 3-dimensional grid. At every integer 3-dimensional coordinate (`x,y,z`), there exists a single cube which is either **active** or **inactive**.
