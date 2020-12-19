@@ -73,11 +73,11 @@ func validateMessage(rules map[int]Rule, applyingRule int, message string) (stri
 	for _, part := range rule.Parts {
 		newMessage := message
 		valid := false
-		for i, rNo := range part {
-			newMessage, valid = validateMessage(rules, rNo, newMessage)
+		for i, ruleNo := range part {
+			newMessage, valid = validateMessage(rules, ruleNo, newMessage)
 			if valid && newMessage == "" {
 				// This was just a random try and I have no idea why it works. But it works...
-				if rNo == 11 {
+				if ruleNo == 11 {
 					valid = true
 					break
 				}
