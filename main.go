@@ -15,6 +15,7 @@ import (
 	"github.com/arxeiss/advent-of-code-2020/day15"
 	"github.com/arxeiss/advent-of-code-2020/day16"
 	"github.com/arxeiss/advent-of-code-2020/day17"
+	"github.com/arxeiss/advent-of-code-2020/day18"
 	"github.com/arxeiss/advent-of-code-2020/day19"
 	"github.com/arxeiss/advent-of-code-2020/day2"
 	"github.com/arxeiss/advent-of-code-2020/day3"
@@ -103,6 +104,8 @@ func main() {
 		err = day16.Day16(part)
 	case 17:
 		err = day17.Day17(part)
+	case 18:
+		err = day18.Day18(part)
 	case 19:
 		err = day19.Day19(part)
 	default:
