@@ -33,3 +33,7 @@ See each day for more information. I copied the instructions there as well.
 - [Day 15: Rambunctious Recitation](/day15)
 - [Day 16: Ticket Translation](/day16)
 - [Day 17: Conway Cubes](/day17)
+- [Day 18: Operation Order](/day18)
+- [Day 19: Monster Messages](/day19)
+- [Day 20: Jurassic Jigsaw](/day20)
+- [Day 21: Allergen Assessment](/day21)
