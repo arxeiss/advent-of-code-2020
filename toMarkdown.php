@@ -24,7 +24,7 @@ echo "> :warning: **SPOILER ALERT** :warning: - The code contains solution for t
 echo "## --- Part 1 ---\n\n";
 
 $content = $dom->saveHtml($desc->item(0)).$dom->saveHtml($desc->item(1));
-$content = preg_replace('/^\s+/m', '', $content);
+$content = preg_replace('/^[ \t]+/m', '', $content);
 $content = preg_replace_callback('/<pre[^>]*>\s*<code[^>]*>(.*?)<\/code>\s*<\/pre>\s*/is', function ($matches) {
   $code = strip_tags(trim($matches[1]));
   return "```\n{$code}\n```\n\n";
