@@ -97,11 +97,21 @@ func playSubGame(player1Src, player2Src []int) ([]int, []int, error) {
 
 	player1Card, player2Card := 0, 0
 	for len(player1) > 0 && len(player2) > 0 {
-		currentConfig := fmt.Sprintf("%v=%v", player1, player2)
-		if _, exists := playedConfiguration[currentConfig]; exists {
+		var currentConfig strings.Builder
+		for _, v := range player1 {
+			currentConfig.WriteByte(',')
+			currentConfig.WriteString(strconv.Itoa(v))
+		}
+		currentConfig.WriteByte('=')
+		for _, v := range player2 {
+			currentConfig.WriteByte(',')
+			currentConfig.WriteString(strconv.Itoa(v))
+		}
+
+		if _, exists := playedConfiguration[currentConfig.String()]; exists {
 			return player1, []int{}, nil
 		}
-		playedConfiguration[currentConfig] = true
+		playedConfiguration[currentConfig.String()] = true
 
 		player1Card, player1 = player1[0], player1[1:]
 		player2Card, player2 = player2[0], player2[1:]
