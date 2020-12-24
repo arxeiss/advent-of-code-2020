@@ -39,3 +39,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 21: Allergen Assessment](/day21)
 - [Day 22: Crab Combat](/day22)
 - [Day 23: Crab Cups](/day23)
+- [Day 24: Lobby Layout](/day24)
