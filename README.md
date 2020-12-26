@@ -14,6 +14,26 @@ See each day for more information. I copied the instructions there as well.
     - Run all tests with `make tests`
     - Run program with specified day and puzzle part: `go run . [day] [part]`
 
+## It is completed! But with some help
+
+I was able to manage all day's puzzles to get all **`50 stars`**. But it wouldn't be possible without some help from friends or the community. Some days I had trouble understanding the task, to understand what I should do. Some days I managed to do the test input, but it was too slow for real input. Or someday I just had no idea how to do it.
+
+### Big thanks to:
+ - YouTube channel of [TurkeyDev](https://www.youtube.com/watch?v=9yHIE6nP50c&list=PLL7ab2XZ_GU3DuxWKiy-Rcrv0ACPFNx96), was a big help when I got really stuck
+ - My friend [Kobzol](https://github.com/Kobzol), who helped me with performance during the days, when my code was slow.
+- The people on [AoC Reddit](https://www.reddit.com/r/adventofcode/) for getting some hints.
+
+### Days I got stuck and searched for the help
+
+- **Day 13** was the first struggling day. I had no idea about the Chinese Remainder Theorem. Thanks TurkeyDev for the hint and see [Day 13](/day13) for more info and study material.
+- On **Day 16**, I was implementing part 2 completely wrong, I had to use code from [CodingNagger](https://github.com/CodingNagger/advent-of-code-2020) as a debugger to find, where my mistake is. And also the inspiration.
+- The task for **Day 17** wasn't clear for me. I used Reddit hints to understand what I should do.
+- **Day 18** was really time-consuming. I wanted to do it the right way, not just the working way for AoC. Should be done properly with the [Shunting-Yard algorithm](https://en.wikipedia.org/wiki/Shunting-yard_algorithm).
+- **Day 19** works just accidentally, see [Reddit Post](https://www.reddit.com/r/adventofcode/comments/kg9hal/2020_day_19_part_2_my_code_works_accidentally_i/)
+- I failed totally with **Day 21**. My code was totally wrong and I had to get inspiration on how to start the elimination and then start from scratch.
+- **Day 23** I used the help from **Kobzol**, as he suggested me to use the combination of `LinkedList` and `HashMap`. Otherwise, it would take many hours to solve.
+- And maybe some more, I just don't remember now.
+
 ## Days
 
 - [Day 1: Report Repair](/day1)
@@ -40,3 +60,4 @@ See each day for more information. I copied the instructions there as well.
 - [Day 22: Crab Combat](/day22)
 - [Day 23: Crab Cups](/day23)
 - [Day 24: Lobby Layout](/day24)
+- [Day 25: Combo Breaker](/day25)

@@ -23,6 +23,7 @@ import (
 	"github.com/arxeiss/advent-of-code-2020/day22"
 	"github.com/arxeiss/advent-of-code-2020/day23"
 	"github.com/arxeiss/advent-of-code-2020/day24"
+	"github.com/arxeiss/advent-of-code-2020/day25"
 	"github.com/arxeiss/advent-of-code-2020/day3"
 	"github.com/arxeiss/advent-of-code-2020/day4"
 	"github.com/arxeiss/advent-of-code-2020/day5"
@@ -123,6 +124,8 @@ func main() {
 		err = day23.Day23(part)
 	case 24:
 		err = day24.Day24(part)
+	case 25:
+		err = day25.Day25(part)
 	default:
 		err = fmt.Errorf("There is no such a day %d", day)
 	}
