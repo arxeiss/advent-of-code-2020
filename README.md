@@ -1,7 +1,9 @@
 # Advent Of Code 2020 in Go
 
-New project, new language, new Advent of Code in Go! For year 2019 in Elixir see https://github.com/arxeiss/advent-of-code-2019.
-To see the original tasks for all days and previous years, visit https://adventofcode.com/. All credits to them for this nice work!
+New project, new language, new Advent of Code in Go! To see the original tasks for all days and previous years, visit https://adventofcode.com/. All credits to them for this nice work!
+
+- Year 2019 in Elixir: https://github.com/arxeiss/advent-of-code-2019
+- Year 2021 in PHP: https://github.com/arxeiss/advent-of-code-2021
 
 See each day for more information. I copied the instructions there as well.
 
