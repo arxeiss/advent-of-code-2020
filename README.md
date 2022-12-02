@@ -4,6 +4,7 @@ New project, new language, new Advent of Code in Go! To see the original tasks f
 
 - Year 2019 in Elixir: https://github.com/arxeiss/advent-of-code-2019
 - Year 2021 in PHP: https://github.com/arxeiss/advent-of-code-2021
+- Year 2022 in PHP: https://github.com/arxeiss/advent-of-code-2022
 
 See each day for more information. I copied the instructions there as well.
 
